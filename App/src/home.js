@@ -14,6 +14,7 @@ export default function Home() {
                 <Text style={styles.titulo}>Lista de Filmes</Text>
                 <TouchableOpacity style={styles.botao} activeOpacity={0.7} onPress={login}>
                     <Icone name="user" size={25}/>
+                    <Text style={{marginLeft: 10, fontSize: 15}}>Login</Text>
                 </TouchableOpacity>
             </View>
         </View>
