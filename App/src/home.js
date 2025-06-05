@@ -13,8 +13,7 @@ export default function Home() {
             <View style={styles.menu}>
                 <Text style={styles.titulo}>Lista de Filmes</Text>
                 <TouchableOpacity style={styles.botao} activeOpacity={0.7} onPress={login}>
-                    <Icone name="user" size={25}/>
-                    <Text style={{marginLeft: 10, fontSize: 15}}>Login</Text>
+                    <Icone name="user" size={35}/>
                 </TouchableOpacity>
             </View>
         </View>
@@ -40,8 +39,8 @@ const styles = StyleSheet.create({
         color: '#E03232'
     },
     botao: {
-        width: 35,
-        height: 35,
+        width: 45,
+        height: 45,
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#E03232',
